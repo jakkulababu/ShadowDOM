@@ -1,7 +1,7 @@
 Feature: Login as different user roles
 
   #TODO put this test case on jira
-  @smoke
+  @smoke1
   Scenario Outline: Check user name
     Given Go to Google page
     When User Search "<search>"
