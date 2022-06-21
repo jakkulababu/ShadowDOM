@@ -165,7 +165,7 @@ public abstract class AbstractBase<T extends AbstractBase> extends LoadableCompo
         wait.withMessage("Can't click element");
         wait.until((WebElement t) -> {
             try {
-                new ShadowQuery().scrollIntoView(ele);
+               // new ShadowQuery().scrollIntoView(ele);
                 ele.click();
                 return true;
             } catch (ElementNotInteractableException | ElementNotSelectableException | StaleElementReferenceException e) {
